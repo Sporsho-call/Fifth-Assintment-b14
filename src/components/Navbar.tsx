@@ -17,7 +17,7 @@ export const Navbar = () => {
         >
           {/*help by ai*/}
           <img
-            src="/src/assets/logo-text.png"
+            src="./src/assets/logo-text.png"
             alt="Dev Stack Logo"
             className="h-7 w-7 object-contain"
           />

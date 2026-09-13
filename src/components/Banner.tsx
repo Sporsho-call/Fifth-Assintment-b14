@@ -50,7 +50,7 @@ export const Banner = () => {
       <div className="flex flex-1 justify-center">
 
         <img
-          src="/src/assets/banner-stack.png"
+          src="./src/assets/banner-stack.png"
           alt="Development stack illustration"
           className="h-auto w-full max-w-md object-contain"
         />

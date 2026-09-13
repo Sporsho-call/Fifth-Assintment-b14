@@ -13,7 +13,7 @@ export const Footer = () => {
           >
 
             <img
-              src="/src/assets/logo-text.png"
+              src="./src/assets/logo-text.png"
               alt="Dev Stack Logo"
               className="h-6 w-6 object-contain"
             />
