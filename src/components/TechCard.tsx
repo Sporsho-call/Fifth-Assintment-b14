@@ -49,7 +49,7 @@ export const TechCard = ({
   return (
     <article className="tech-card">
 
-      {/* TOP */}
+      
       <div>
 
         <div className="mb-4 flex items-start justify-between gap-3">
@@ -78,7 +78,7 @@ export const TechCard = ({
 
       </div>
 
-      {/* BOTTOM */}
+      
       <div>
 
         <div className="my-4 border-t border-slate-100 pt-3">

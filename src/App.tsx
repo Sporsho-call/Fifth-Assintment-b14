@@ -87,7 +87,7 @@ const App = () => {
 
         <Banner />
 
-        {/* TECHNOLOGIES */}
+       
         <section
           id="technologies"
           className="mx-auto max-w-7xl px-6 py-10 md:px-8"
@@ -133,7 +133,7 @@ const App = () => {
 
             <div className="grid grid-cols-1 items-start gap-5 lg:grid-cols-4">
 
-              {/* TECHNOLOGY CARDS */}
+             
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:col-span-3">
 
                 {technologies.map((tech) => {
@@ -154,7 +154,7 @@ const App = () => {
 
               </div>
 
-              {/* SIDEBAR */}
+             
               <div className="lg:col-span-1">
 
                 <StackSidebar
@@ -169,8 +169,6 @@ const App = () => {
           )}
 
         </section>
-
-        {/* PROJECTS */}
         <section
           id="projects"
           className="mx-auto max-w-7xl px-6 py-12 md:px-8"
@@ -184,7 +182,7 @@ const App = () => {
           </p>
         </section>
 
-        {/* ABOUT */}
+       
         <section
           id="about"
           className="mx-auto max-w-7xl px-6 py-12 md:px-8"
@@ -199,7 +197,7 @@ const App = () => {
           </p>
         </section>
 
-        {/* CONTACT */}
+        
         <section
           id="contact"
           className="mx-auto max-w-7xl px-6 py-12 md:px-8"

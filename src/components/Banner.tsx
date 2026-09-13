@@ -6,7 +6,7 @@ export const Banner = () => {
       className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-10 px-6 py-20 md:flex-row md:px-8 md:py-28"
     >
 
-      {/* LEFT SIDE */}
+      
       <div className="flex-1 text-center md:text-left">
 
         <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight text-slate-900 sm:text-5xl md:text-6xl">
@@ -46,7 +46,7 @@ export const Banner = () => {
         </div>
       </div>
 
-      {/* RIGHT SIDE — HERO IMAGE */}
+      
       <div className="flex flex-1 justify-center">
 
         <img

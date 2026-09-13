@@ -4,7 +4,7 @@ export const Footer = () => {
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-12 md:grid-cols-4 md:px-8">
 
-        {/* BRAND */}
+       
         <div className="md:col-span-1">
 
           <a
@@ -45,7 +45,7 @@ export const Footer = () => {
 
         </div>
 
-        {/* PRODUCT */}
+        
         <div>
 
           <h3 className="mb-4 text-[10px] font-bold uppercase tracking-wide text-slate-700">
@@ -70,7 +70,7 @@ export const Footer = () => {
 
         </div>
 
-        {/* COMPANY */}
+        
         <div>
 
           <h3 className="mb-4 text-[10px] font-bold uppercase tracking-wide text-slate-700">
@@ -95,7 +95,7 @@ export const Footer = () => {
 
         </div>
 
-        {/* LEGAL */}
+        
         <div>
 
           <h3 className="mb-4 text-[10px] font-bold uppercase tracking-wide text-slate-700">
@@ -117,8 +117,6 @@ export const Footer = () => {
         </div>
 
       </div>
-
-      {/* COPYRIGHT */}
       <div className="mx-auto flex max-w-7xl items-center justify-between border-t border-slate-100 px-6 py-5 text-[9px] text-slate-400 md:px-8">
 
         <span>

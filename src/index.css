@@ -1,9 +1,4 @@
 @import "tailwindcss";
-
-/* ================================
-   GLOBAL
-================================ */
-
 * {
   box-sizing: border-box;
 }
@@ -37,11 +32,6 @@ a {
   text-decoration: none;
 }
 
-
-/* ================================
-   BRAND GRADIENT
-================================ */
-
 .brand-gradient {
   background: linear-gradient(
     135deg,
@@ -65,11 +55,6 @@ a {
   color: transparent;
 }
 
-
-/* ================================
-   HERO TEXT
-================================ */
-
 .hero-gradient-text {
   background: linear-gradient(
     100deg,
@@ -83,11 +68,6 @@ a {
   background-clip: text;
   color: transparent;
 }
-
-
-/* ================================
-   TECHNOLOGY CARD
-================================ */
 
 .tech-card {
   display: flex;
@@ -119,11 +99,6 @@ a {
   box-shadow:
     0 10px 25px rgba(15, 23, 42, 0.07);
 }
-
-
-/* ================================
-   BADGES
-================================ */
 
 .tech-badge {
   border-radius: 999px;
@@ -157,17 +132,10 @@ a {
   background: #fff1f2;
   color: #ef4444;
 }
-
 .badge-cyan {
   background: #ecfeff;
   color: #06a6c7;
 }
-
-
-/* ================================
-   STACK BUTTON
-================================ */
-
 .stack-button {
   background: #080d19;
   color: #ffffff;
@@ -179,25 +147,12 @@ a {
     background 0.2s ease,
     transform 0.2s ease;
 }
-
 .stack-button:hover {
   background: #000000;
 }
-
-
-/* ================================
-   RATING
-================================ */
-
 .rating-star {
   color: #f4b400;
 }
-
-
-/* ================================
-   STACK SIDEBAR
-================================ */
-
 .stack-sidebar {
   position: sticky;
   top: 80px;
@@ -212,12 +167,6 @@ a {
   box-shadow:
     0 2px 8px rgba(15, 23, 42, 0.025);
 }
-
-
-/* ================================
-   LOADING
-================================ */
-
 .loading-spinner {
   height: 30px;
   width: 30px;
@@ -236,28 +185,16 @@ a {
   }
 }
 
-
-/* ================================
-   NAVBAR HOVER
-================================ */
-
 nav a,
 footer a {
   transition:
     color 0.2s ease,
     opacity 0.2s ease;
 }
-
 nav a:hover,
 footer a:hover {
   opacity: 0.8;
 }
-
-
-/* ================================
-   RESPONSIVE
-================================ */
-
 @media (max-width: 1023px) {
   .stack-sidebar {
     position: static;

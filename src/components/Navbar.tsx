@@ -9,7 +9,7 @@ export const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b border-slate-100 bg-white px-4 py-4">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
 
-        {/* LOGO */}
+        
         <a
           href="#home"
           className="flex items-center gap-2"
@@ -27,7 +27,7 @@ export const Navbar = () => {
           </span>
         </a>
 
-        {/* DESKTOP MENU */}
+       
         <div className="hidden items-center gap-8 text-[12px] font-medium text-slate-500 md:flex">
           <a
             href="#home"
@@ -65,7 +65,7 @@ export const Navbar = () => {
           </a>
         </div>
 
-        {/* DESKTOP ACTIONS */}
+        
         <div className="hidden items-center gap-4 md:flex">
           <a
             href="#contact"
@@ -82,7 +82,7 @@ export const Navbar = () => {
           </a>
         </div>
 
-        {/* MOBILE BUTTON */}
+        
         <button
           type="button"
           onClick={() => setIsOpen((open) => !open)}
